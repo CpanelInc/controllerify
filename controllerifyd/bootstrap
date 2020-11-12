@@ -14,7 +14,7 @@ if ( !-e "/usr/local/cpanel/build-tools" ) {
 
 print "Building the controller...\n";
 
-system("cd /usr/local/cpanel/t/qa ; make controller");
+system(qq{export PATH="/usr/local/cpanel/3rdparty/bin:/usr/local/cpanel/build-tools:/usr/local/sandbox-utils/bin:/usr/local/cpanel/t/qa/bin:\$PATH"; cd /usr/local/cpanel/t/qa ; make controller});
 
 my $hostname = `hostname`;
 chomp $hostname;
