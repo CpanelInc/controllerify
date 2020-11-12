@@ -22,7 +22,7 @@ chomp($public_ip);
 my $hostname = `hostname`;
 chomp $hostname;
 
-my $host = $public_ip || $hostname;
+my $host = $hostname =~ m{cprapid} ? $hostname : $public_ip || $hostname;
 
 print "\n";
 print "================================\n";
