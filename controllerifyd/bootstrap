@@ -16,9 +16,14 @@ print "Building the controller...\n";
 
 system(qq{export PATH="/usr/local/cpanel/3rdparty/bin:/usr/local/cpanel/build-tools:/usr/local/sandbox-utils/bin:/usr/local/cpanel/t/qa/bin:\$PATH"; cd /usr/local/cpanel/t/qa ; make controller});
 
+my $public_ip = `/usr/local/cpanel/3rdparty/bin/perl -MCpanel::NAT -MCpanel::DIp::MainIP -e 'print Cpanel::NAT::get_public_ip( Cpanel::DIp::MainIP::getmainip() )'`;
+chomp($public_ip);
+
 my $hostname = `hostname`;
 chomp $hostname;
 
+my $host = $public_ip || $hostname;
+
 print "Now access the controller UI at:\n";
-print "https://$hostname:1337/login.php\n";
+print "https://$host:1337/login.php\n";
 
