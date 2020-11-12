@@ -24,6 +24,10 @@ chomp $hostname;
 
 my $host = $public_ip || $hostname;
 
+print "\n";
+print "================================\n";
 print "Now access the controller UI at:\n";
 print "https://$host:1337/login.php\n";
+print "================================\n";
+print "\n";
 
