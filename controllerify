@@ -1,15 +1,15 @@
 #!/bin/sh
 # This script was generated using Makeself 2.1.3
 
-CRCsum="2706149849"
-MD5="7d643f8dd49f5d723a1e2bb446313ee9"
+CRCsum="2677636880"
+MD5="8922ffff43e8c43e2ae3c9da912fe603"
 TMPROOT=${TMPDIR:=/home/cPanelInstall}
 
 label="cPanel & WHM controllerifyer"
 script="./bootstrap"
 scriptargs=""
 targetdir="controllerifyd"
-filesizes="617"
+filesizes="627"
 keep=n
 
 print_cmd_arg=""
@@ -153,7 +153,7 @@ do
 	echo Target directory: "$targetdir"
 	echo Uncompressed size: 8 KB
 	echo Compression: gzip
-	echo Date of packaging: Fri Nov 13 10:51:24 CST 2020
+	echo Date of packaging: Fri Nov 13 10:58:00 CST 2020
 	echo Built with Makeself version 2.1.3 on linux-gnu
 	echo Build command was: "utils/makeself controllerifyd controllerify cPanel & WHM controllerifyer ./bootstrap"
 	if test x$script != x; then
@@ -400,9 +400,9 @@ if test "$keep" = n; then
 fi
 eval $finish; exit $res
 
-‹ Œ¹®_í”QoÚ0ÇyÎ§82¤‚ÔXÊ*¡ªëÆC»>to•Z“°–ØÆvÔ"Ê>û—”1:MÚ¤i÷{HŽÜß¾óå&Bm‘?GÏr:¸»e÷þ>ŠNýèt¢“=«ë÷mÔ€^ã/PhC@CÙAÒ½•ÿGy×­Â	ã¡¤*ó¼BS°†`‰ºø(ÎøL=M¡Í€‚ïÖd"!Y˜HÂiN
-–¥"Ó>t`åE*ÆÍj`r¦µ­qªàe1Ð„§ñÈ¦Ën·{Ëý¡ÛN/µ¡yü‡5þ1øÁ—ò–¯&Ü.)ŸÍ‘:Ã™è>—ìrúJ=õ|ï^•Î½uÍô^ÎW’2;í˜–ÑtÓñÚ[{Þf
-Ë3—‡3s
-‰àF‰,£ª: ·éd±XÑG)”ëó›Ï£=Ã‹T*‰2Ëò¥Åg[ÏnZ
-Ã2ý“¥&\—ºm•Åý!$)ì—Árò­~µ”—/¡%‹IÆ’;&a÷‡ÛwžƒàòÂ¥âøêü¦öëÓXÆñ%a||ÖuGÏƒ¬iãØáî¥^ö¬tšÜ†6ßÎÑýÐKæ"—ímŸUãs¡'9-û®âJ¾ÍÖÄVX[ôòU"í_)K×pVËÄõ™<=½ÚjcŽE‰)Í±gNÙ¦ÖOºrÉ‹]a®ÎÏjj
-ªM°-ë_µåjnâÑÔµWâH’P­wÜ_Ç@L\×VŸª›JÜ¢SÛðŒñ®œËß­ÿüE5AAAAAAAAþ~ TOúÏ (  
+‹ »®_í”QoÚ0ÇóœOqd•
+RC ª„ª®{XÚõ¡{«ÔšÄ€µÄvmgQöÙç¸ÒŠÑiÒ&mºß1Üÿ|çËßŒ…0Ú("½?GÏr2¸§åõó8Ä^?>Øçàýñ±×ë÷qìAÏû”Úà);ˆ}º·âÿ(ïZQ©U4f<’Tå¾_j
+Ö,5C·žÅŸê¡ï³	´¡R\N.R’G©$œæÑ¸dy!r@–>X¤bÜ¼¡¦¡`ZÛG J^Mx6l²èv»·<ºíôBZ´!˜O©	Ž ?WŸQõj¢mJõÛÌ©“(šŠîsÉ.§/4Ðyµ§žíÜ«Ö¹³œBk½Íù*2fç±M€	a9ÍÖ¯ü•ï¯§ð¡:su83£
+n”ÈsªêúëN–ôQ
+eàúìæÓhÇðb•I¢Ì¢ziÉÞÙ6£ëÃÒ°\ÿ$ÕDÄ…nªâÁÒvË`ùÚ<ÈÊNÊ/p ËqÎÒ;&a÷ûÛwžƒðòÜ…’äêì¦ñíã…L’KÂøÅ5X×>²¡Mk„»M½6ìÈtšÂ.m¼Ãû¡ŸÎD!ÛÛ>ëÆgBN
+Zõ]¯kù6Ú[a#é;ËTÚ¿R–­à´Iš3yzz±ÕÚçŠS™c;Ïj9aS˜X?éÚ%»þÂ\Ÿ÷ ÒÔ”24T›p[ÖÝ«P|£j®˜¡îÔ]ºÖëÑ4µWb$M©Ö¯Ì_.€˜¤©­o®RÒãÛÿ”ñ®œÉß­ÿ|Á<AAAAAAAAÿ‘<Ô*Ì (  
