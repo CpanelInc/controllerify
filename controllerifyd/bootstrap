@@ -25,7 +25,7 @@ chomp $hostname;
 my $host = $hostname =~ m{cprapid} ? $hostname : $public_ip || $hostname;
 
 print "Creating controller config files...\n";
-system("/usr/local/sandbox-utils/bin/setup-test-controller");
+system( "/usr/local/cpanel/3rdparty/bin/perl", "/usr/local/sandbox-utils/bin/setup-test-controller" );
 
 print "\n";
 print "================================\n";
