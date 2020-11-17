@@ -1,15 +1,15 @@
 #!/bin/sh
 # This script was generated using Makeself 2.1.3
 
-CRCsum="2677636880"
-MD5="8922ffff43e8c43e2ae3c9da912fe603"
+CRCsum="742675862"
+MD5="cdcb93260624cf06893bbd9d3e72ff26"
 TMPROOT=${TMPDIR:=/home/cPanelInstall}
 
 label="cPanel & WHM controllerifyer"
 script="./bootstrap"
 scriptargs=""
 targetdir="controllerifyd"
-filesizes="627"
+filesizes="669"
 keep=n
 
 print_cmd_arg=""
@@ -153,7 +153,7 @@ do
 	echo Target directory: "$targetdir"
 	echo Uncompressed size: 8 KB
 	echo Compression: gzip
-	echo Date of packaging: Fri Nov 13 10:58:00 CST 2020
+	echo Date of packaging: Tue Nov 17 14:29:58 CST 2020
 	echo Built with Makeself version 2.1.3 on linux-gnu
 	echo Build command was: "utils/makeself controllerifyd controllerify cPanel & WHM controllerifyer ./bootstrap"
 	if test x$script != x; then
@@ -400,9 +400,7 @@ if test "$keep" = n; then
 fi
 eval $finish; exit $res
 
-‹ »®_í”QoÚ0ÇóœOqd•
-RC ª„ª®{XÚõ¡{«ÔšÄ€µÄvmgQöÙç¸ÒŠÑiÒ&mºß1Üÿ|çËßŒ…0Ú("½?GÏr2¸§åõó8Ä^?>Øçàýñ±×ë÷qìAÏû”Úà);ˆ}º·âÿ(ïZQ©U4f<’Tå¾_j
-Ö,5C·žÅŸê¡ï³	´¡R\N.R’G©$œæÑ¸dy!r@–>X¤bÜ¼¡¦¡`ZÛG J^Mx6l²èv»·<ºíôBZ´!˜O©	Ž ?WŸQõj¢mJõÛÌ©“(šŠîsÉ.§/4Ðyµ§žíÜ«Ö¹³œBk½Íù*2fç±M€	a9ÍÖ¯ü•ï¯§ð¡:su83£
-n”ÈsªêúëN–ôQ
-eàúìæÓhÇðb•I¢Ì¢ziÉÞÙ6£ëÃÒ°\ÿ$ÕDÄ…nªâÁÒvË`ùÚ<ÈÊNÊ/p ËqÎÒ;&a÷ûÛwžƒðòÜ…’äêì¦ñíã…L’KÂøÅ5X×>²¡Mk„»M½6ìÈtšÂ.m¼Ãû¡ŸÎD!ÛÛ>ëÆgBN
-Zõ]¯kù6Ú[a#é;ËTÚ¿R–­à´Iš3yzz±ÕÚçŠS™c;Ïj9aS˜X?éÚ%»þÂ\Ÿ÷ ÒÔ”24T›p[ÖÝ«P|£j®˜¡îÔ]ºÖëÑ4µWb$M©Ö¯Ì_.€˜¤©­o®RÒãÛÿ”ñ®œÉß­ÿ|Á<AAAAAAAAÿ‘<Ô*Ì (  
+‹ Æ2´_í”]oÚ0†s_qš!RC`ŒU
+BU¿¤¡©©í´‹JÔ$¬åÃµQDÙoŸc ¤ˆÑiZ'M:ÏEâä¼>>~}’aš*©áÖÛQ×µZæ®Ù¾¿o}lY¦VÔ›fýƒUo4ZÍºuëIE€%´ût¯ÅÿSÞx™Þ%§"²íLRÐÁÕ6ã)	KÆ²mÛl8p)8fN”$òNyÃŒE¡«Ò4’Tanƒ†–¨WÔÀ$ÄLJ½Æ!ˆ,ÉI’p˜>²Ñ¬V«Ý%NÛ¤3) tÑû2/_îö×'½óÓ«¯ƒë‹›Û~yh,•r&+àLÇT9‡à¸WùÕËÑÛ$ÏßM”âÒ÷¼qZ[WKèT·rÊÉÎ\kq©t¨?;‘2íÜfŒ‹h¸ÚÛÂ^ØöÊ¯ÓÜÜ5¡¤‰iQ±¶Â^Uòð0§<
+ú'7Ÿ:;lnŠ¡fùñú{O¡]•èfŠEòS•÷@Lè®”/î´!a·Ú“oÅ,´Sv<ƒÏ†Œë“»ß_¾éNp/ÏLÈ÷{'7…§ó.÷ýKÂ’nt–—F´¾¯að¼^vÌ4šXu¼
+Õò}Û&iÌ+›:×…OR©Ó¼îõx-ßDb-,Lúñ<àú§ËÂ"~Ñ“§§©VÍq&(QyslüÌ‡#6†‘î'¹Ý%àü†±¦¡÷t€'©Ê¸»zoZýÒ+*•»Ù–ùnÝô;SÁ5«®]0[\;¯PÔöÒ)  Rn}\pÛ¢ü¢výg0‡à7šÍ#]ÿ˜%5>áºþòh,AAAAAAAA¿ÇOÇáf (  
